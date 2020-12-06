@@ -38,5 +38,6 @@ export default {
     },
     SESSION: {
         COOKIE_KEY: process.env.COOKIE_KEY || 'djqsldjqsl8785765@##__',
+        COOKIE_DOMAIN: process.env.COOKIE_DOMAIN || '.localhost:5000',
     },
 };
