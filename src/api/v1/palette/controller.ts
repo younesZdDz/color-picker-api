@@ -2,7 +2,6 @@ import express from 'express';
 import httpStatus from 'http-status';
 import { ApiError } from '../../../utils/ApiError';
 import Palette from './model';
-import User from '../auth/model';
 
 const getPalettes: express.Handler = async (req, res, next) => {
     try {

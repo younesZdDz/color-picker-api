@@ -3,7 +3,7 @@ import express from 'express';
 import expressValidation from 'express-validation';
 import { ApiError } from '../utils/ApiError';
 import config from '../config';
-import { ErrorType } from '../@types';
+import { ErrorType } from '../types/index.d';
 
 /**
  * Error handler. Send stacktrace only during development
