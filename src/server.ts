@@ -57,7 +57,6 @@ server.use(
     cookieSession({
         maxAge: 30 * 24 * 60 * 60 * 1000,
         keys: [config.SESSION.COOKIE_KEY],
-        domain: config.SERVER.website,
     }),
 );
 server.use(passport.initialize());
